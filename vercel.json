@@ -1,0 +1,21 @@
+{
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "other",
+  "outputDirectory": "dist",
+  "env": [
+    "DATABASE_URL",
+    "OAUTH_SERVER_URL",
+    "BUILT_IN_FORGE_API_URL",
+    "BUILT_IN_FORGE_API_KEY",
+    "OWNER_OPEN_ID"
+  ],
+  "envDescription": {
+    "DATABASE_URL": "URL de conexão do banco de dados MySQL",
+    "OAUTH_SERVER_URL": "URL do servidor OAuth",
+    "BUILT_IN_FORGE_API_URL": "URL da API de armazenamento",
+    "BUILT_IN_FORGE_API_KEY": "Chave da API de armazenamento",
+    "OWNER_OPEN_ID": "ID do proprietário da aplicação"
+  }
+}
